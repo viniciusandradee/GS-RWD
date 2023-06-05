@@ -20,7 +20,7 @@
   
   
   .infos{
-    width: 440px;
+    width: 560px;
   }
   h2{
     font-size: 34px;
@@ -39,7 +39,7 @@
   }
   
   .pessoais, .endereco{
-    width: 440px;
+    width: 560px;
   }
   
   .confirmar{
@@ -49,8 +49,8 @@
   }
   
   input{
-    height:50px;
-    width: 440px;
+    height: 60px;
+    width: 560px;
     border-radius: 6px;
     border:none;
   
@@ -63,17 +63,17 @@
   }
   
   #txtCidade, #txtComp{
-    width: 262px;
+    width: 320px;
   }
   #txtEstado, #txtNum{
-    width: 165px;
+    width: 227px;
     margin-left: 5px;
   }
   
   
   input::placeholder{
     color: #6cc180;
-    font-size: 10px;
+    font-size: 16px;
     padding: 2px 0 0 6px;
     float:left;
   }
@@ -177,7 +177,7 @@
   
   input::placeholder{
     color: #6cc180;
-    font-size: 10px;
+    font-size: 14px;
     padding: 2px 0 0 6px;
     float:left;
   }

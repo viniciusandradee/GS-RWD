@@ -18,12 +18,9 @@
   
   /* SECTION */
   
-  section{
-    height: 1340px;
-  }
   
   .infos{
-    width: 440px;
+    width: 560px;
   }
   h2{
     font-size: 40px;
@@ -42,7 +39,7 @@
   }
   
   .pessoais, .caminhao, .endereco{
-    width: 440px;
+    width: 560px;
   }
   
   .cadastrar{
@@ -51,8 +48,8 @@
   }
   
   input{
-    height:50px;
-    width: 440px;
+    height:60px;
+    width: 560px;
     border-radius: 6px;
     border:none;
   
@@ -65,25 +62,25 @@
   }
   
   #txtRG{
-    width: 277px;
+    width: 320px;
   }
   #txtOE{
-    width: 150px;
+    width: 227px;
     margin-left: 5px;
   }
   
   #txtModelo, #txtAno, #txtCidade, #txtComp{
-    width: 262px;
+    width: 320px;
   }
   #txtPlaca, #txtCor, #txtEstado, #txtNum{
-    width: 165px;
+    width: 227px;
     margin-left: 5px;
   }
   
   
   input::placeholder{
     color: #6cc180;
-    font-size: 11px;
+    font-size: 14px;
     padding: 2px 0 0 6px;
     float:left;
   }

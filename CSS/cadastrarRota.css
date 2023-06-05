@@ -1,7 +1,7 @@
 @media(min-width:1200px){
   /* SECTION */
   .infos{
-    width: 440px;
+    width: 560px;
     margin-top: 30px;
   }
   h2{
@@ -26,14 +26,12 @@
   }
 
   .produto, .destinatario, .enderecoColeta, .enderecoEntrega{
-    width: 440px;
+    width: 560px;
   }
 
-
-
   input{
-    height:50px;
-    width: 440px;
+    height:60px;
+    width: 560px;
     border-radius: 6px;
     border:none;
 
@@ -46,29 +44,21 @@
   }
 
   #txtCondMin, #txtDesc {
-    height: 90px;
+    height: 100px;
   }
 
 
-  #txtRG{
-    width: 277px;
+  #txtRG, .cidade, .complemento{
+    width: 320px;
   }
-  #txtOE{
-    width: 150px;
-    margin-left: 5px;
-  }
-
-  .cidade, .complemento{
-    width: 262px;
-  }
-  .estado, .numero{
-    width: 165px;
+  #txtOE, .estado, .numero{
+    width: 227px;
     margin-left: 5px;
   }
 
   input::placeholder{
     color: #6cc180;
-    font-size: 11px;
+    font-size: 15px;
     padding: 2px 0 0 6px;
     float:left;
   }
@@ -81,11 +71,12 @@
 
   #botaoCad{
     width: 300px;
-    height: 55px;
+    height: 65px;
 
     color:white;
     background-color: #54c26e;
     justify-content: center;
+    font-size: 18px;
   }
 
   #botaoCad:hover{
@@ -252,18 +243,10 @@
   }
 
 
-  #txtRG{
+  #txtRG, .cidade, .complemento{
     width: 181px;
   }
-  #txtOE{
-    width: 145px;
-    margin-left: 5px;
-  }
-
-  .cidade, .complemento{
-    width: 181px;
-  }
-  .estado, .numero{
+  #txtOE, .estado, .numero{
     width: 145px;
     margin-left: 5px;
   }
@@ -351,23 +334,14 @@
     height: 80px;
   }
   
-  
-  #txtRG{
+  #txtRG, .cidade, .complemento{
     width: 171px;
   }
-  #txtOE{
+  #txtOE, .estado, .numero{
     width: 135px;
     margin-left: 8px;
   }
-  
-  .cidade, .complemento{
-    width: 171px;
-  }
-  .estado, .numero{
-    width: 135px;
-    margin-left: 8px;
-  }
-  
+
   input::placeholder{
     color: #6cc180;
     font-size: 13px;

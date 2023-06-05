@@ -20,12 +20,14 @@
   
   
   .infos{
-    width: 440px;
+    width: 560px;
   }
   h2{
+    padding-top: 20px;
     font-size: 40px;
   }
   .infos p {
+    padding-top: 20px;
     font-size: 16px;
   }
   
@@ -35,7 +37,7 @@
   }
   
   .pessoais{
-    width: 440px;
+    width: 560px;
   }
   
   .cadastrar{
@@ -44,8 +46,8 @@
   }
   
   input{
-    height:50px;
-    width: 440px;
+    height:60px;
+    width: 560px;
     border-radius: 6px;
     border:none;
   
@@ -57,21 +59,21 @@
     background-color: #d5d4d4;
   }
   
-  #txtNome, #txtEmail{
-    width: 263px;
+  #txtNome, #txtEmail, #txtDate{
+    width: 320px;
   }
-  #txtCPF, #txtNumero{
-    width: 165px;
+  #txtCPF, #txtTel, #txtCel{
+    width: 227px;
     margin-left: 5px;
   }
   #txtMensagem{
-    height: 90px;
+    height: 100px;
   }
   
   
   input::placeholder{
     color: #6cc180;
-    font-size: 11px;
+    font-size: 16px;
     padding: 2px 0 0 6px;
     float:left;
   }
@@ -140,10 +142,12 @@
     width: 420px;
   }
   h2{
-    font-size: 28px;
+    padding-top: 20px;
+    font-size: 30px;
   }
   .infos p {
-    font-size: 14px;
+    padding-top: 20px;
+    font-size: 16px;
   }
   
   
@@ -161,7 +165,7 @@
   }
   
   input{
-    height:40px;
+    height:55px;
     width: 420px;
     border-radius: 6px;
     border:none;
@@ -174,21 +178,21 @@
     background-color: #d5d4d4;
   }
   
-  #txtNome, #txtEmail{
-    width: 255px;
+  #txtNome, #txtEmail, #txtDate{
+    width: 252px;
   }
-  #txtCPF, #txtNumero{
+  #txtCPF, #txtTel, #txtCel{
     width: 155px;
     margin-left: 5px;
   }
   #txtMensagem{
-    height: 80px;
+    height: 95px;
   }
   
   
   input::placeholder{
     color: #6cc180;
-    font-size: 10px;
+    font-size: 14px;
     padding: 2px 0 0 4px;
     float:left;
   }
@@ -300,10 +304,10 @@
     background-color: #d5d4d4;
   }
   
-  #txtNome, #txtEmail{
-    width: 263px;
+  #txtNome, #txtEmail, #txtDate{
+    width: 262px;
   }
-  #txtCPF, #txtNumero{
+  #txtCPF, #txtTel, #txtCel{
     width: 145px;
     margin-left: 5px;
   }
@@ -356,15 +360,6 @@
     
     padding-right: 100px;
   }
-  footer{
-    margin-top: 170px;
-    width: 100%;
-  
-  }
-  section{
-    width: 100%;
-  }
-  
 }
 
 @media(max-width:424px){
@@ -432,11 +427,11 @@
   input:hover{
     background-color: #d5d4d4;
   }
-  
-  #txtNome, #txtEmail{
-    width: 188px;
+
+  #txtNome, #txtEmail, #txtDate{
+    width: 187px;
   }
-  #txtCPF, #txtNumero{
+  #txtCPF, #txtTel, #txtCel{
     width: 100px;
     margin-left: 5px;
   }
@@ -488,11 +483,6 @@
   .infoTel{
     
     padding-right: 100px;
-  }
-  footer{
-    margin-top: 170px;
-    width: 100%;
-  
   }
   section{
     width: 100%;
