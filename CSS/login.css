@@ -1,0 +1,334 @@
+@media(min-width:1200px){
+  .logo{
+    width: 150px;
+    float: right;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 85px;
+    padding: 15px 0 0 10px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  
+  /* SECTION */
+
+  section{
+    padding-bottom: 300px;
+  }
+  
+  h3 {
+    font-size: 45px;
+    padding: 80px 0 0 0px;
+  }
+  
+  .exit{
+    width: 40px;
+    float: right;
+    padding-top: 85px;
+  }
+  .exit:hover{
+    opacity: 0.7;
+  }
+  
+  .dica{
+    padding-top: 8px;
+    font-size: 16px;
+  }
+  
+  .caixa{
+    width: 340px;
+  }
+  
+  .inputs{
+    padding-top: 30px;
+  }
+  
+  input{
+    height:50px;
+    width: 340px;
+    border-radius: 6px;
+    border:none;
+  }
+  
+  #txtCPF, #pwdPass, #txtCNPJ{
+    background-color: #e7e6e6;
+  }
+  
+  #txtCPF::placeholder, #pwdPass::placeholder, #txtCNPJ::placeholder{
+    color: #6cc180;
+    font-size: 11px;
+    padding-left: 10px;
+  }
+  
+  #login{
+    color:white;
+    background-color: #54c26e;
+  
+    margin-top: 20px;
+  }
+  
+  
+  #login:hover{
+    background-color: #1da13c;
+  }  
+}
+
+@media(min-width:769px) and (max-width:1199px){
+  .logo{
+    width: 120px;
+    float: right;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 65px;
+    padding: 13px 0 0 8px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  
+  /* SECTION */
+  
+  h3 {
+    margin-top: 100px;
+    font-size: 40px;
+    padding: 60px 0 0 0px;
+  }
+  
+  .exit{
+    width: 30px;
+    float: right;
+    padding-top: 65px;
+  }
+  .exit:hover{
+    opacity: 0.7;
+  }
+  
+  .dica{
+    padding-top: 6px;
+    font-size: 20px;
+  }
+  
+  .caixa{
+    width: 320px;
+  }
+  
+  .inputs{
+    padding-top: 28px;
+  }
+  
+  input{
+    height:60px;
+    width: 320px;
+    border-radius: 4px;
+    border:none;
+  }
+  
+  #txtCPF, #pwdPass, #txtCNPJ{
+    background-color: #e7e6e6;
+  }
+  
+  #txtCPF::placeholder, #pwdPass::placeholder, #txtCNPJ::placeholder{
+    color: #6cc180;
+    font-size: 18px;
+    padding-left: 8px;
+  }
+  
+  #login{
+    color:white;
+    background-color: #54c26e;
+    font-size: 18px;
+    margin-top: 18px;
+  }
+  footer{
+    margin-top: 800px;
+  }
+  
+  #login:hover{
+    background-color: #1da13c;
+  }  
+
+}
+
+@media(min-width:425px) and (max-width:768px){
+  .logo{
+    width: 121px;
+    height: 108px;
+    float: right;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 60px;
+    height: 60px;
+    margin: 30px 0px 0px 32px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  
+  /* SECTION */
+  
+  h3 {
+    font-size: 36px;
+    margin: 136px 250px 0px 10px;
+  }
+  
+  .exit{
+    width: 40px;
+    float: right;
+    
+  }
+  .exit:hover{
+    opacity: 0.7;
+  }
+  
+  .dica{
+    padding-top: 8px;
+    font-size: 16px;
+  }
+  
+  .caixa{
+    width: 340px;
+  }
+  
+  .inputs{
+    padding-top: 30px;
+  }
+  
+  input{
+    height:68px;
+    width: 340px;
+    border-radius: 10px;
+    border:none;
+  }
+  
+  #txtCPF, #pwdPass, #txtCNPJ{
+    background-color: #e7e6e6;
+  }
+  
+  #txtCPF::placeholder, #pwdPass::placeholder, #txtCNPJ::placeholder{
+    color: #6cc180;
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  
+  #login{
+    color:white;
+    background-color: #54c26e;
+  
+    margin-top: 20px;
+  }
+  
+  
+  #login:hover{
+    background-color: #1da13c;
+  }
+  #login::placeholder{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  footer{
+    margin-top: 160px;
+  }
+  
+}
+
+@media(max-width:424px){
+  .logo{
+    width: 111px;
+    height: 100px;
+    float: right;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 50px;
+    height: 50px;
+    margin: 20px 0px 0px 22px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  
+  /* SECTION */
+  
+  h3 {
+    font-size: 32px;
+    margin: 130px 240px 0px 8px;
+  }
+  
+  .exit{
+    width: 30px;
+    float: right;
+    
+  }
+  .exit:hover{
+    opacity: 0.7;
+  }
+  
+  .dica{
+    padding-top: 8px;
+    font-size: 14px;
+  }
+  
+  .caixa{
+    width: 320px;
+  }
+  
+  .inputs{
+    padding-top: 40px;
+  }
+  
+  input{
+    height:65px;
+    width: 320px;
+    border-radius: 10px;
+    border:none;
+  }
+  
+  #txtCPF, #pwdPass, #txtCNPJ{
+    background-color: #e7e6e6;
+  }
+  
+  #txtCPF::placeholder, #pwdPass::placeholder, #txtCNPJ::placeholder{
+    color: #6cc180;
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  
+  #login{
+    color:white;
+    background-color: #54c26e;
+  
+    margin-top: 20px;
+  }
+  
+  
+  #login:hover{
+    background-color: #1da13c;
+  }
+  #login::placeholder{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  footer{
+    margin-top: 100%;
+  }
+}

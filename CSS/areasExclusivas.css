@@ -1,0 +1,189 @@
+@media(min-width:1200px){
+  /* SECTION */
+  h2{
+    font-size: 35px;
+    padding: 90px 0 0 230px;
+  }
+
+  .opcao{
+    background-color: #c5c3c3;
+    width: 600px;
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 8px;
+  }
+
+  p{
+    color: #29b929;
+    font-size: 20px;
+    padding: 23px 0 0 25px;
+  }
+
+  .opcao:hover{
+    background-color: #b6b4b4;
+  }
+
+  .chatbot{
+    width: 70px;
+    padding: 90px 0 0 295px;
+  }
+
+
+  .exit{
+    width: 40px;
+    float: right;
+    padding: 85px 300px 0 0;
+  }
+  .exit:hover{
+    opacity: 0.7;
+  }
+
+  section{
+    padding-bottom: 150px;
+  }
+}
+
+@media(min-width:769px) and (max-width:1199px){
+  /* SECTION */
+  h2{
+    font-size: 24px;
+    padding: 90px 0 0 150px;
+  }
+
+  .opcao{
+    background-color: #c5c3c3;
+    width: 400px;
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 8px;
+  }
+
+  p{
+    color: #29b929;
+    font-size: 20px;
+    padding: 23px 0 0 25px;
+  }
+
+  .opcao:hover{
+    background-color: #b6b4b4;
+  }
+
+  .chatbot{
+    width: 70px;
+    padding: 90px 0 0 295px;
+  }
+
+
+  .exit{
+    width: 40px;
+    float: right;
+    padding: 85px 104px 0 0;
+  }
+  .exit:hover{
+    opacity: 0.7;
+  }
+
+  section{
+    padding-bottom: 150px;
+  }
+}
+
+
+@media(min-width:425px) and (max-width:768px){
+  /* SECTION */
+  
+  h2{
+    font-size: 22px;
+    margin: 35px 0px 0px 70px;
+  }
+  
+  .opcao{
+    background-color: #c5c3c3;
+    width: 340px;
+    height: 65px;
+    margin-top: 44px;
+    border-radius: 10px;
+  }
+
+  p{
+    color: #29b929;
+    font-size: 16px;
+    padding: 22px 0 0 25px;
+  }
+
+  .opcao:hover{
+    background-color: #b6b4b4;
+  }
+
+  .chatbot{
+    width: 81px;
+    height: 80px;
+    margin: 67px 0px 0px 300px;
+    
+  }
+  .exit{
+    width: 40px;
+    height: 30px;
+    float: right;
+    margin: 0 100px 0px 0;
+  }
+  .exit:hover{
+    opacity: 0.7;
+  }
+  .areaEx{
+    display: none;
+  }
+  .logo{
+    width: 121px;
+    height: 108px;
+  }
+}
+@media(max-width:424px){
+  /* SECTION */
+  
+  h2{
+    font-size: 20px;
+    margin: 35px 0px 0px 70px;
+  }
+  
+  .opcao{
+    background-color: #c5c3c3;
+    width: 280px;
+    height: 65px;
+    margin-top: 44px;
+    border-radius: 10px;
+  }
+
+  p{
+    color: #29b929;
+    font-size: 16px;
+    padding: 22px 0 0 25px;
+  }
+
+  .opcao:hover{
+    background-color: #b6b4b4;
+  }
+
+  .chatbot{
+    width: 60px;
+    height: 60px;
+    margin: 67px 0px 0px 300px;
+    
+  }
+  .exit{
+    width: 40px;
+    height: 30px;
+    float: right;
+    margin: 0 15px 0px 0;
+  }
+  .exit:hover{
+    opacity: 0.7;
+  }
+  .areaEx{
+    display: none;
+  }
+  .logo{
+    width: 121px;
+    height: 108px;
+  }
+}

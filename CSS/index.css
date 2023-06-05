@@ -1,0 +1,292 @@
+@media(min-width:1200px){
+  /* SECTION 1*/
+  
+  .visual{
+    text-align: center;
+  }
+  .img{
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 4px;
+  }
+
+  .botoes{
+    display: flex;
+    width: 100%;
+  }
+
+  
+  input{
+    color:white;
+    background-color: #4aca97;
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    margin: 30px 0 0 0;
+  }
+
+  input:hover{
+    background-color: #205b44;
+  }
+
+  /* SECTION 2*/
+  .chatbot{
+    width: 50px;
+    float: right;
+    padding-right: 70px;
+  }
+
+  .agrisolution{
+    margin-top: 50px;
+  }
+
+  .titulo {
+    color:#00aaff;
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+  }
+
+  .subtitulo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+    padding-left: 40px;
+  }
+
+  .infos {
+    line-height: 23px;
+    margin-bottom: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    padding-left: 50px;
+    padding-right: 30px;
+  } 
+  
+
+  /* SECTION 3*/
+
+  .beneficios{
+    margin-top: 20px;
+  }
+}
+
+@media(min-width:769px) and (max-width:1199px){
+  .visual{
+    text-align: center;
+  }
+  .img{
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 4px;
+  }
+
+  .botoes{
+    display: flex;
+    width: 100%
+  }
+
+  
+  input{
+    color:white;
+    background-color: #4aca97;
+    border-radius: 8px;
+    border: none;
+    width: 180px;
+    height: 50px;
+    font-size: 17px;
+    margin: 30px 0 0 0;
+  }
+
+  input:hover{
+    background-color: #205b44;
+  }
+
+  /* SECTION 2*/
+  .chatbot{
+    width: 40px;
+    float: right;
+    padding-right: 60px;
+  }
+
+  .agrisolution{
+    margin-top: 40px;
+  }
+
+  .titulo {
+    color:#00aaff;
+    font-size: 30px;
+    margin-bottom: 18px;
+    padding-left: 25px;
+  }
+
+  .subtitulo {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 6px;
+    padding-left: 30px;
+  }
+
+  .infos {
+    line-height: 20px;
+    margin-bottom: 18px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 20px;
+  }  
+
+  /* SECTION 3*/
+
+  .beneficios{
+    margin-top: 10px;
+  }
+
+}
+
+@media(min-width:425px) and (max-width:768px){
+  /* SECTION 1*/
+  .visual{
+    text-align: center;
+  }
+  .img{
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 4px;
+  }
+
+  .botoes{
+    display: flex;
+    width: 100%;
+  }
+
+  
+  input{
+    color:white;
+    background-color: #4aca97;
+    border-radius: 8px;
+    border: none;
+    width: 115px;
+    height: 35px;
+    font-size: 12px;
+    margin: 30px 0 0 0;
+  }
+
+  input:hover{
+    background-color: #205b44;
+  }
+
+  /* SECTION 2*/
+  .chatbot{
+    width: 50px;
+    float: right;
+    padding-right: 140px;
+  }
+
+  .agrisolution{
+    margin-top: 50px;
+  }
+
+  .titulo {
+    color:#00aaff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+  }
+
+  .subtitulo {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+    padding-left: 40px;
+  }
+
+  .infos {
+    line-height: 23px;
+    margin-bottom: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 17px;
+    padding-left: 50px;
+    padding-right: 30px;
+  }  
+
+  /* SECTION 3*/
+
+  .beneficios{
+    margin-top: 50px;
+  }
+
+}
+@media(max-width:424px){
+  .visual{
+    text-align: center;
+  }
+  .img{
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 4px;
+  }
+  
+  .botoes{
+    display: flex;
+    width: 100%;
+  }
+
+  
+  input{
+    color:white;
+    background-color: #4aca97;
+    border-radius: 8px;
+    border: none;
+    width: 115px;
+    height: 29px;
+    font-size: 12px;
+    margin: 30px 0 0 0;
+  }
+
+  input:hover{
+    background-color: #205b44;
+  }
+
+  /* SECTION 2*/
+  .chatbot{
+    width: 50px;
+    float: right;
+    padding-right: 140px;
+  }
+
+  .agrisolution{
+    margin-top: 50px;
+  }
+
+  .titulo {
+    color:#00aaff;
+    font-size: 26px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+  }
+
+  .subtitulo {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+    padding-left: 40px;
+  }
+
+  .infos {
+    line-height: 20px;
+    margin-bottom: 18px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-left: 48px;
+    padding-right: 28px;
+  }  
+
+  /* SECTION 3*/
+
+  .beneficios{
+    margin-top: 40px;
+  }
+}

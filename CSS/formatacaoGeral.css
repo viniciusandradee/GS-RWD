@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+@media(min-width: 1200px){
+
+  *{
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  h1, h2, h3, p, a{
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+
+  .container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  /* HEADER */
+
+  .agricultura-menu{
+    display: none;
+  }  
+
+  header{
+    height: 120px;
+    width: 100%;
+    border-bottom: solid 1px #969598;
+  }
+  
+  .logo{
+    width: 150px;
+    float: left;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  ul{
+    list-style: none;   
+  }
+  li{
+    padding: 50px 0 0 21px;
+    display: inline-block;
+    font-size: 20px;
+    
+  }
+
+  .areaExLi{
+    float: right;
+    padding-right: 20px;
+  }
+
+  .areaEx{
+
+    color: #29b929;
+  }
+  .areaEx:hover{
+    color: #1e891e;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #000000;
+  }
+  nav a:hover{
+    color: #6e6d6d;
+  }
+
+
+  /* FOOTER */
+
+  footer{
+    height: 110px;
+    background-color: #6cc180;
+    width: 100%;
+    margin-top: 100px;
+    bottom: 0;
+    clear: both;
+  }
+
+  footer p{
+    float: left;
+    padding: 15px 0 0 25px;
+    color:white;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .suporte{
+    width: 200px;
+    float: right;
+  }
+  .suporte:hover{
+    opacity: 0.6;
+  }
+
+  .suporte p {
+    padding: 10px 20px 0 0;
+    font-size: 20px;
+    float: right;
+  }
+  .suporte img{
+    padding: 3px 10px 0 0;
+    width: 40px;
+    float: right;
+  }
+
+  form div{
+    width: 300px;
+  }
+
+}
+
+@media(min-width: 769px) and (max-width: 1199px){
+  h1, h2, h3, p, a{
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+  *{
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  /* HEADER */
+
+  .agricultura-menu{
+    display: none;
+  }  
+
+  header{
+    height: 120px;
+    width: 100%;
+    border-bottom: solid 1px #969598;
+  }
+  
+  .logo{
+    width: 130px;
+    float: left;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  ul{
+    list-style: none;   
+  }
+  li{
+    padding: 40px 0 0 11px;
+    display: inline-block;
+    font-size: 15px;
+    
+  }
+
+  .areaExLi{
+    float: right;
+    padding-right: 15px;
+  }
+
+  .areaEx{
+
+    color: #29b929;
+  }
+  .areaEx:hover{
+    color: #1e891e;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #000000;
+  }
+  nav a:hover{
+    color: #6e6d6d;
+  }
+
+
+  /* FOOTER */
+
+  footer{
+    height: 100px;
+    background-color: #6cc180;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  footer p{
+    float: left;
+    padding: 10px 0 0 20px;
+    color:white;
+    font-size: 12px;
+    padding-left: 40px;
+    padding-right: 25px;
+  }
+
+  .suporte{
+    width: 180px;
+    float: right;
+  }
+  .suporte:hover{
+    opacity: 0.6;
+  }
+
+  .suporte p {
+    padding: 8px 18px 0 0;
+    font-size: 16px;
+    float: right;
+  }
+  .suporte img{
+    padding: 2px 8px 0 0;
+    width: 30px;
+    float: right;
+  }
+
+  form div{
+    width: 300px;
+  }
+
+}
+
+@media(min-width: 425px) and (max-width: 768px){
+  *{
+    margin: 0 auto;
+    padding: 0;
+  }
+  h1, h2, h3, p, a{
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+
+  .container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  /* HEADER */
+
+  nav{
+    display: none;
+  }
+
+  header{
+    height: 120px;
+    width: 100%;
+    border-bottom: solid 1px #969598;
+  }
+  
+  .logo{
+    width: 121px;
+    height: 108px;
+    float:right;
+    padding-top: 10px;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+
+  .areaExLi{
+    margin: 15px 0 0 10px;
+  }
+
+  .areaEx{
+    color: #22dc31a1;
+    font-size: 18px;
+  }
+  .areaEx:hover{
+    color: #1e891e;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #000000;
+  }
+  nav a:hover{
+    color: #6e6d6d;
+  }
+
+
+  /* FOOTER */
+
+  footer{
+    height: 170px;
+    background-color: #6cc180;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  footer p{
+    float: left;
+    padding: 15px 10px 0 0;
+    color:white;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+
+  .suporte{
+    width: 170px;
+    float: right;
+  }
+  .suporte:hover{
+    opacity: 0.6;
+  }
+
+  .suporte p {
+    
+    padding: 20px 10px 0 0;
+    font-size: 15px;
+    float: right;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+  .suporte img{
+    
+    padding: 15px 10px 0 0;
+    width: 30px;
+    float: right;
+  }
+  form div{
+    width: 300px;
+  }
+
+}
+
+@media(max-width:424px){
+  *{
+    margin: 0 auto;
+    padding: 0;
+
+  }
+
+  h1, h2, h3, p, a{
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+
+  .container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  /* HEADER */
+
+  nav{
+    display: none;
+  }
+
+  header{
+    height: 110px;
+    width: 100%;
+    border-bottom: solid 1px #969598;
+  }
+  
+  .logo{
+    width: 119px;
+    height: 106px;
+    float:right;
+    padding-top: 8px;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .areaExLi{
+    margin: 15px 0 0 10px;
+  }
+
+  .areaEx{
+    color: #22dc31a1;
+    font-size: 18px;
+  }
+  .areaEx:hover{
+    color: #1e891e;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #000000;
+  }
+  nav a:hover{
+    color: #6e6d6d;
+  }
+
+
+  /* FOOTER */
+
+  footer{
+    height: 160px;
+    background-color: #6cc180;
+    width: 100%;
+    margin-top: 90px;
+  }
+
+  footer p{
+    float: left;
+    padding: 13px 8px 0 0;
+    color:white;
+    font-size: 13px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .suporte{
+    width: 168px;
+    float: right;
+  }
+  .suporte:hover{
+    opacity: 0.6;
+  }
+
+  .suporte p {
+    
+    padding: 18px 8px 0 0;
+    font-size: 15px;
+    float: right;
+  }
+  .suporte img{
+    
+    padding: 13px 8px 0 0;
+    width: 28px;
+    float: right;
+  }
+  form div{
+    width: 300px;
+  }
+
+}
+@media (max-width: 768px) {
+
+	.agricultura-menu{
+		float:left;
+	}
+
+	#menu_toggle{
+		opacity: 0;
+	}
+	#menu_toggle:checked + .menu_btn > span{
+		transform:rotate(45deg);
+    top: -25px;
+    left: 20px; 
+	}
+	#menu_toggle:checked + .menu_btn > span::before{
+		top: 0px;
+		transform:rotate(90deg);
+	}
+	#menu_toggle:checked + .menu_btn > span::after{
+		display: none;
+	}
+	#menu_toggle:checked ~ .menu_box{
+		left:0 !important
+	}
+	.menu_btn{
+		position:fixed;
+		top:30px;
+		left: 30px;
+		width: 30px;
+		height: 30px;
+		font-size: 10px;
+		cursor: pointer;
+		z-index: 2;
+	}
+ /* Esse serve pra aparecer o simbolo */
+	.menu_btn > span, .menu_btn > span::before, .menu_btn> span::after{
+		display: block;
+		position: relative;
+    margin-top: 30px;
+		width:100%;
+		height: 1px;
+		background-color: #616161;
+		transition-duration: 0.5s;
+	}
+	.menu_btn > span::before{
+		content: '';
+		top: -8px;
+	}
+	.menu_btn > span::after{
+		content: '';
+		top: -23px;
+	}
+	.menu_box{
+		display: block;
+		position: fixed;
+		top:0;
+		left: -100%;
+		height: 100vh;
+		width: 150px;
+		margin: 0;
+		padding: 60px 0 0 0;
+		list-style: none;
+		background-color: #eee;
+		box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+		transition-duration: .25s;
+	}
+	.menu_box li{
+		border-bottom: 1px ridge #ddd;
+	}
+	.menu_box li:first-child{
+		border-top: 1px ridge #ddd;
+	}
+	.menu_item{
+		display: block;
+		padding: 12px 24px;
+		color:#333;
+		font-family: 'Roboto', sans-serif;
+		font-size: 13px;
+		font-weight: 600;
+		text-decoration: none;
+		transition-duration: .25s;
+	}
+	.menu_item:hover{
+		background-color: #ccc;
+	}
+}
+

@@ -1,0 +1,502 @@
+@media(min-width:1200px){
+  .logo{
+    width: 150px;
+    float: right;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 85px;
+    padding: 15px 0 0 10px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  
+  /* SECTION */
+  
+  
+  .infos{
+    width: 440px;
+  }
+  h2{
+    font-size: 40px;
+  }
+  .infos p {
+    font-size: 16px;
+  }
+  
+  
+  h3{
+    padding: 30px 0 15px 0;
+  }
+  
+  .pessoais{
+    width: 440px;
+  }
+  
+  .cadastrar{
+    padding-top: 45px;
+    width: 295px;
+  }
+  
+  input{
+    height:50px;
+    width: 440px;
+    border-radius: 6px;
+    border:none;
+  
+    background-color: #e7e6e6;
+    margin-bottom: 5px;
+  }
+  
+  input:hover{
+    background-color: #d5d4d4;
+  }
+  
+  #txtNome, #txtEmail{
+    width: 263px;
+  }
+  #txtCPF, #txtNumero{
+    width: 165px;
+    margin-left: 5px;
+  }
+  #txtMensagem{
+    height: 90px;
+  }
+  
+  
+  input::placeholder{
+    color: #6cc180;
+    font-size: 11px;
+    padding: 2px 0 0 6px;
+    float:left;
+  }
+  
+  #botaoCad{
+    width: 300px;
+    height: 55px;
+  
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #botaoCad:hover{
+    background-color: #1da13c;
+  }
+  
+  .cont{
+    padding-left: 15px;
+    margin-top: 60px;
+    width: 320px;
+  }
+  .contato{
+    width: 320px;
+  }
+  
+  .contato img{
+    width: 80px;
+  }
+  
+  .infoEmail, .infoTel{
+    float: right;
+    font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 29px 10px 0 0;
+    font-weight: 600;
+  }
+  
+  .infoTel{
+    float: right;
+    padding-right: 100px;
+  }
+  
+}
+@media(min-width:769px) and (max-width:1199px){
+  .logo{
+    width: 120px;
+    float: right;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 75px;
+    padding: 25px 0 0 5px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  
+  /* SECTION */
+  
+  
+  .infos{
+    width: 420px;
+  }
+  h2{
+    font-size: 28px;
+  }
+  .infos p {
+    font-size: 14px;
+  }
+  
+  
+  h3{
+    padding: 20px 0 10px 0;
+  }
+  
+  .pessoais{
+    width: 420px;
+  }
+  
+  .cadastrar{
+    padding-top: 40px;
+    width: 285px;
+  }
+  
+  input{
+    height:40px;
+    width: 420px;
+    border-radius: 6px;
+    border:none;
+  
+    background-color: #e7e6e6;
+    margin-bottom: 3px;
+  }
+  
+  input:hover{
+    background-color: #d5d4d4;
+  }
+  
+  #txtNome, #txtEmail{
+    width: 255px;
+  }
+  #txtCPF, #txtNumero{
+    width: 155px;
+    margin-left: 5px;
+  }
+  #txtMensagem{
+    height: 80px;
+  }
+  
+  
+  input::placeholder{
+    color: #6cc180;
+    font-size: 10px;
+    padding: 2px 0 0 4px;
+    float:left;
+  }
+  
+  #botaoCad{
+    width: 280px;
+    height: 45px;
+  
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #botaoCad:hover{
+    background-color: #1da13c;
+  }
+  
+  .cont{
+    padding-left: 10px;
+    margin-top: 40px;
+    width: 300px;
+  }
+  .contato{
+    width: 300px;
+  }
+  
+  .contato img{
+    width: 40px;
+  }
+  
+  .infoEmail, .infoTel{
+    float: right;
+    font-size: 14px;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 10px 10px 0 0;
+    font-weight: 600;
+  }
+  
+  .infoTel{
+    float: right;
+    padding-right: 90px;
+  }
+  
+
+}
+
+@media(min-width:425px) and (max-width:768px){
+  *{
+    margin: 0 auto;
+  }
+  .logo{
+    width: 121px;
+    float: right;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 70px;
+    height: 70px;
+    padding: 30px 0 0 10px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  
+  /* SECTION */
+  
+  
+  .infos{
+    width: 440px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  .infos p {
+    font-size: 16px;
+  }
+  
+  
+  h3{
+    font-size: 20px;
+    padding: 30px 0 15px 0;
+  }
+  
+  .pessoais{
+    width: 420px;
+    margin: 0 auto;
+  }
+  
+  .cadastrar{
+    margin-left: auto;
+    padding-top: 45px;
+    width: 295px;
+  }
+  
+  input{
+    height:50px;
+    width: 420px;
+    border-radius: 6px;
+    border:none;
+  
+    background-color: #e7e6e6;
+    margin-bottom: 5px;
+  }
+  
+  input:hover{
+    background-color: #d5d4d4;
+  }
+  
+  #txtNome, #txtEmail{
+    width: 263px;
+  }
+  #txtCPF, #txtNumero{
+    width: 145px;
+    margin-left: 5px;
+  }
+  
+  
+  input::placeholder{
+    color: #6cc180;
+    font-size: 11px;
+    padding: 2px 0 0 6px;
+    float:left;
+  }
+  
+  #botaoCad{
+    width: 187px;
+    height: 43px;
+    margin-left: 55px;
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #botaoCad:hover{
+    background-color: #1da13c;
+  }
+  
+  .cont{
+    font-size: 20px;
+    padding-left: 15px;
+    margin-top: 60px;
+    width: 320px;
+  }
+  .contato{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .contato img{
+    width: 40px;
+  }
+  
+  .infoEmail, .infoTel{
+    
+    font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 600;
+  }
+  
+  .infoTel{
+    
+    padding-right: 100px;
+  }
+  footer{
+    margin-top: 170px;
+    width: 100%;
+  
+  }
+  section{
+    width: 100%;
+  }
+  
+}
+
+@media(max-width:424px){
+  *{
+    margin: 0 auto;
+  }
+  .logo{
+    width: 121px;
+    float: right;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 40px;
+    height: 40px;
+    padding: 15px 0 0 10px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  
+  /* SECTION */
+  
+  
+  .infos{
+    width: 300px;
+  }
+  h2{
+    font-size: 26px;
+  }
+  .infos p {
+    font-size: 14px;
+  }
+  
+  
+  h3{
+    font-size: 20px;
+    padding: 30px 0 15px 0;
+  }
+  
+  .pessoais{
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .cadastrar{
+    margin-left: auto;
+    padding-top: 45px;
+    width: 300px;
+  }
+  
+  input{
+    height:50px;
+    width: 300px;
+    border-radius: 6px;
+    border:none;
+  
+    background-color: #e7e6e6;
+    margin-bottom: 5px;
+  }
+  
+  input:hover{
+    background-color: #d5d4d4;
+  }
+  
+  #txtNome, #txtEmail{
+    width: 188px;
+  }
+  #txtCPF, #txtNumero{
+    width: 100px;
+    margin-left: 5px;
+  }
+  
+  
+  input::placeholder{
+    color: #6cc180;
+    font-size: 11px;
+    padding: 2px 0 0 6px;
+    float:left;
+  }
+  
+  #botaoCad{
+    width: 187px;
+    height: 43px;
+    margin-left: 55px;
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #botaoCad:hover{
+    background-color: #1da13c;
+  }
+  
+  .cont{
+    font-size: 20px;
+    padding-left: 15px;
+    margin-top: 60px;
+    width: 320px;
+  }
+  .contato{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .contato img{
+    width: 40px;
+  }
+  
+  .infoEmail, .infoTel{
+    
+    font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 600;
+  }
+  
+  .infoTel{
+    
+    padding-right: 100px;
+  }
+  footer{
+    margin-top: 170px;
+    width: 100%;
+  
+  }
+  section{
+    width: 100%;
+  }
+  
+}
+

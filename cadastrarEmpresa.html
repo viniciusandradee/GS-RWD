@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Empresa</title>
+    <link rel="stylesheet" href="./CSS/formatacaoGeral.css">
+    <link rel="stylesheet" href="./CSS/dadosJuridicos.css">
+    <link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon">
+    <script src="./JS/cadastrarEmpresa.js"></script>
+    
+  </head>
+
+    <body>
+      <div class="container">
+        <header>
+          <a href="./index.html"><img src="./imgs/arrow.png" class="arrow" alt="seta para retornar a pagina principal"></a>
+          <a href="./index.html"><img class="logo" src="./imgs/logo.png" alt="logo agrisolutions"></a>
+        </header>
+
+        <section>
+          <div class="infos">
+            <img src="./imgs/addPeople.png" class="add" alt="simbolo de adicionar um usuario">
+            <h2>Cadastrar empresa</h2>
+          </div>
+            <form name="frmEmpc" method="" action="./areaExclusivaEmp.html" onsubmit="return validar()">
+              <div class="pessoais">
+                <h3>Dados jurídicos:</h3>
+                <input type="text" name="" id="txtRazao" placeholder="Razão social:">
+                <br>
+
+                <input type="number" name="" id="txtCNPJ" placeholder="CNPJ:">
+                <br>
+
+                <input type="text" name="" id="txtFantasia" placeholder="Nome fantasia:">
+                <input type="text" name="" id="txtSegmento" placeholder="Segmento:">
+              </div>
+
+              <div class="endereco">
+                <h3>Endereço da sede:</h3>
+
+                <input type="number" name="" id="txtCEP" placeholder="CEP:">
+                <br>
+                <input type="text" name="" id="txtRua" placeholder="Rua:">
+                <br>
+
+                <input type="text" name="" id="txtCidade" placeholder="Cidade:">
+                <input type="text" name="" id="txtEstado" placeholder="Estado:">
+                <br>
+
+                <input type="text" name="" id="txtComp" placeholder="Complemento:">
+                <input type="text" name="" id="txtNum" placeholder="Número:">
+                <input type="password" name="" id="pwdPass" placeholder="Senha:">
+              </div>
+              
+              <div class="confirmar">
+                <input type="submit" value="Cadastrar" id="botaoConf">
+                <a href="https://web.telegram.org/k/#@AgrisolutionsBot" target="_blank"><img src="./imgs/chatbot.png" class="chatbot" alt="simbolo de um chat para falar com o chatbot"></a>
+              </div>
+              <div><span id="erro"></span></div>
+            </form>
+        </section>
+
+        <footer>
+          <p>
+            Leonardo Bruno de Sousa - RM 552408
+            <br>
+            Marco Antônio Araujo - RM 550128
+            <br>
+            Samara de Oliveira Moreira - RM 552302
+            <br>
+            Vinícius Monteiro Manfrin - RM 552293
+            <br>
+            Vinicius Andrade Castro Lopes - RM 99343
+          </p>
+          <a href="./suporte.html">
+            <div class="suporte">
+              <p>Fale conosco</p>
+              <img src="./imgs/suporte.png" alt="simbolo de suporte">
+            </div>
+          </a>
+        </footer>
+      </div>
+    </body>
+
+  </html>

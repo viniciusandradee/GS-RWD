@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados</title>
+    <link rel="stylesheet" href="./CSS/formatacaoGeral.css">
+    <link rel="stylesheet" href="./CSS/cadastrarMotorista.css">
+    <link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon">
+    
+    <script src="./JS/cadastrarMotorista.js"></script>
+  </head>
+
+    <body>
+      <div class="container">
+        <header>
+          <a href="./areaExclusivaMot.html"><img src="./imgs/arrow.png" class="arrow" alt="seta para retornar a pagina principal"></a>
+          <a href="./index.html"><img class="logo" src="./imgs/logo.png" alt="logo agrisolutions"></a>
+        </header>
+
+        <section>
+          <div class="infos">
+            <img src="./imgs/addPeople.png" class="add" alt="simbolo de adicionar usuario">
+            <h2>Meus dados</h2>
+          </div>
+          <form name="frmMot" method="" action="./areaExclusivaMot.html" onsubmit="return validar()">
+            <div class="pessoais">
+              <h3>Dados pessoais:</h3>
+              <input type="text" name="" id="txtNome" placeholder="Nome:">
+              <br>
+
+              <input type="number" name="" id="txtCPF" placeholder="CPF:">
+              <br>
+
+              <input type="number" name="" id="txtRG" placeholder="RG:">
+              <input type="text" name="" id="txtOE" placeholder="Orgão emissor:">
+              <br>
+
+              <input type="number" name="" id="txtMEI" placeholder="Número Nire(MEI):">
+              <br>
+              <input type="number" name="" id="txtCNH" placeholder="Número CNH:">
+              <br>
+              <input type="number" name="" id="txtKM" placeholder="Valor do km:">
+              <br>
+
+              <input type="email" name="" id="txtEmail" placeholder="Email:">
+              <br>
+              <input type="password" name="" id="pwdSenha" placeholder="Senha:">
+            </div>
+
+            <div class="caminhao">
+              <h3>Informações do caminhão:</h3>
+
+              <input type="text" name="" id="txtCRLV" placeholder="Número do CRLV-e:">
+              <br>
+
+              <input type="text" name="" id="txtModelo" placeholder="Modelo:">
+              <input type="text" name="" id="txtPlaca" placeholder="Placa:">
+              <br>
+              <input type="number" name="" id="txtAno" placeholder="Ano:">
+              <input type="text" name="" id="txtCor" placeholder="Cor:">
+              <br>
+              <input type="text" name="" id="txtMarca" placeholder="Marca:">
+              <br>
+              <input type="text" name="" id="txtTerm" placeholder="Termômetro especificação:">
+            </div>
+
+            <div class="endereco">
+              <h3>Endereço:</h3>
+
+              <input type="number" name="" id="txtCEP" placeholder="CEP:">
+              <br>
+              <input type="text" name="" id="txtRua" placeholder="Rua:">
+              <br>
+
+              <input type="text" name="" id="txtCidade" placeholder="Cidade:">
+              <input type="text" name="" id="txtEstado" placeholder="Estado:">
+              <br>
+
+              <input type="text" name="" id="txtComp" placeholder="Complemento:">
+              <input type="text" name="" id="txtNum" placeholder="Número:">
+            </div>
+            <div class="cadastrar">
+              <input type="submit" value="Alterar dados" id="botaoCad">
+            </div>
+            <div><span id="erro"></span></div>
+          </form>
+        </section>
+
+        <footer>
+          <p>
+            Leonardo Bruno de Sousa - RM 552408
+            <br>
+            Marco Antônio Araujo - RM 550128
+            <br>
+            Samara de Oliveira Moreira - RM 552302
+            <br>
+            Vinícius Monteiro Manfrin - RM 552293
+            <br>
+            Vinicius Andrade Castro Lopes - RM 99343
+          </p>
+          <a href="./suporte.html">
+            <div class="suporte">
+              <p>Fale conosco</p>
+              <img src="./imgs/suporte.png" alt="simbolo de suporte">
+            </div>
+          </a>
+        </footer>
+      </div>
+    </body>
+
+  </html>

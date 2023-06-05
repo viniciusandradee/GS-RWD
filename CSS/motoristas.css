@@ -1,0 +1,277 @@
+@media(min-width:1200px){
+  .logo{
+    width: 150px;
+    float: right;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 85px;
+    padding: 15px 0 0 10px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  /* SECTION */
+  section{
+    height: 586px;
+  }
+  
+  h2{
+    margin: 90px 0 0 90px;
+    font-size: 40px;
+  }
+  
+  p{
+    font-size: 22px;
+    padding: 25px 0 0 90px;
+  }
+  
+  input{
+    height:50px;
+    width: 440px;
+    border-radius: 6px;
+    border:none;
+    margin-bottom: 5px;
+  }
+  .confirmar{
+    border: none;
+    margin-top: 300px;
+    width: 440px;
+    display: flex;
+  }
+  
+  #cadastrarRota{
+    width: 300px;
+    height: 55px;
+  
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #cadastrarRota:hover{
+    background-color: #1da13c;
+  }
+  
+  .chatbot{
+    width: 50px;
+    padding: 5px 0 0 20px;
+    float: right;
+  }
+  
+  .chatbot:hover{
+    opacity: 0.8;
+  }
+  
+}
+@media(min-width:769px) and (max-width:1199px){
+  .logo{
+    width: 130px;
+    float: right;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 80px;
+    padding: 20px 0 0 10px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  /* SECTION */
+  section{
+    height: 576px;
+  }
+  
+  h2{
+    margin: 80px 0 0 80px;
+    font-size: 35px;
+  }
+  
+  p{
+    font-size: 20px;
+    padding: 20px 0 0 85px;
+  }
+  
+  input{
+    height:40px;
+    width: 420px;
+    border-radius: 4px;
+    border:none;
+    margin-bottom: 4px;
+  }
+  .confirmar{
+    border: none;
+    margin-top: 280px;
+    width: 420px;
+    display: flex;
+  }
+  
+  #cadastrarRota{
+    width: 280px;
+    height: 50px;
+  
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #cadastrarRota:hover{
+    background-color: #1da13c;
+  }
+  
+  .chatbot{
+    width: 40px;
+    padding: 4px 0 0 18px;
+    float: right;
+  }
+  
+  .chatbot:hover{
+    opacity: 0.8;
+  }
+
+}
+
+@media(min-width:425px) and (max-width:768px){
+  .logo{
+    width: 120px;
+    float: right;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 70px;
+    padding: 25px 0 0 10px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  /* SECTION */
+  section{
+    height: 586px;
+  }
+  
+  h2{
+    margin: 90px 0 0 90px;
+    font-size: 40px;
+  }
+  
+  p{
+    font-size: 22px;
+    padding: 25px 0 0 90px;
+  }
+  
+  input{
+    height:50px;
+    width: 440px;
+    border-radius: 6px;
+    border:none;
+    margin-bottom: 5px;
+  }
+  .confirmar{
+    border: none;
+    margin-top: 300px;
+    width: 440px;
+    display: flex;
+  }
+  
+  #cadastrarRota{
+    width: 300px;
+    height: 55px;
+  
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #cadastrarRota:hover{
+    background-color: #1da13c;
+  }
+  
+  .chatbot{
+    width: 50px;
+    padding: 5px 0 0 20px;
+    float: right;
+  }
+  
+  .chatbot:hover{
+    opacity: 0.8;
+  }
+  
+}
+
+@media(max-width: 424px){
+  .logo{
+    width: 120px;
+    float: right;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 60px;
+    padding: 25px 0 0 8px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  /* SECTION */
+  section{
+    height: 580px;
+  }
+  
+  h2{
+    margin: 85px 0 0 85px;
+    font-size: 30px;
+  }
+  
+  p{
+    font-size: 15px;
+    padding: 23px 0 0 87px;
+  }
+  
+  input{
+    height:48px;
+    width: 430px;
+    border-radius: 5px;
+    border:none;
+    margin-bottom: 4px;
+  }
+  .confirmar{
+    border: none;
+    margin-top: 290px;
+    width: 430px;
+    display: flex;
+  }
+  
+  #cadastrarRota{
+    width: 290px;
+    height: 50px;
+  
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #cadastrarRota:hover{
+    background-color: #1da13c;
+  }
+  
+  .chatbot{
+    width: 45px;
+    padding: 3px 0 0 17px;
+    float: right;
+  }
+  
+  .chatbot:hover{
+    opacity: 0.8;
+  }
+}

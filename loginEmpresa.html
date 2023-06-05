@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Empresa</title>
+    <link rel="stylesheet" href="./CSS/formatacaoGeral.css">
+    <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon">
+    <script src="./JS/loginEmpresa.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a href="./areaExclusivaGeral.html"><img src="./imgs/arrow.png" class="arrow" alt="seta para retornar a pagina principal"></a>
+        <a href="./index.html"><img class="logo" src="./imgs/logo.png" alt="logo agrisolutions"></a>
+      </header>
+
+      <section>
+
+        <div class="caixa">
+          <a href="./index.html"><img src="./imgs/exit.png" class="exit" alt="simbolo para retornar a pagina principal"></a>
+          <h3>Login</h3>
+          <p class="dica">Digite o CNPJ e a senha.</p>
+          <form name="frmLoginEmp" action="./areaExclusivaEmp.html" method="" onsubmit="return validar()">
+            <div class="inputs">
+              <input type="number" name="" id="txtCNPJ" placeholder="CNPJ:">
+              <br>
+              <br>
+              <input type="password" name="" id="pwdPass" placeholder="Senha:">
+              <br>
+              <br>
+              <p>
+                CNPJ: 123
+                <br>
+                Senha: 123
+              </p>
+              <input type="submit" value="Entrar" id="login">
+            </div>
+            <div><span id="erro"></span></div>
+        </form>
+        </div>
+
+      </section>
+
+      <footer>
+        <p>
+          Leonardo Bruno de Sousa - RM 552408
+          <br>
+          Marco Antônio Araujo - RM 550128
+          <br>
+          Samara de Oliveira Moreira - RM 552302
+          <br>
+          Vinícius Monteiro Manfrin - RM 552293
+          <br>
+          Vinicius Andrade Castro Lopes - RM 99343
+        </p>
+        <a href="./suporte.html">
+          <div class="suporte">
+            <p>Fale conosco</p>
+            <img src="./imgs/suporte.png" alt="simbolo de suporte">
+          </div>
+        </a>
+      </footer>
+  </div>
+
+  </body>
+
+  </html>

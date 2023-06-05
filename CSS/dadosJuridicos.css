@@ -1,0 +1,444 @@
+@media(min-width:1200px){
+  .logo{
+    width: 150px;
+    float: right;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 85px;
+    padding: 15px 0 0 10px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  
+  /* SECTION */
+  
+  
+  .infos{
+    width: 440px;
+  }
+  h2{
+    font-size: 34px;
+  }
+  .infos p {
+    font-size: 16px;
+  }
+  
+  .add{
+    width: 40px;
+    float: right;
+  }
+  
+  h3{
+    padding: 26px 0 15px 0;
+  }
+  
+  .pessoais, .endereco{
+    width: 440px;
+  }
+  
+  .confirmar{
+    padding-top: 45px;
+    width: 440px;
+    display: flex;
+  }
+  
+  input{
+    height:50px;
+    width: 440px;
+    border-radius: 6px;
+    border:none;
+  
+    background-color: #e7e6e6;
+    margin-bottom: 5px;
+  }
+  
+  input:hover{
+    background-color: #d5d4d4;
+  }
+  
+  #txtCidade, #txtComp{
+    width: 262px;
+  }
+  #txtEstado, #txtNum{
+    width: 165px;
+    margin-left: 5px;
+  }
+  
+  
+  input::placeholder{
+    color: #6cc180;
+    font-size: 10px;
+    padding: 2px 0 0 6px;
+    float:left;
+  }
+  
+  #botaoConf{
+    width: 300px;
+    height: 55px;
+  
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #botaoConf:hover{
+    background-color: #1da13c;
+  }
+  
+  .chatbot{
+    width: 50px;
+    padding: 5px 0 0 20px;
+    float: right;
+  }
+  
+  .chatbot:hover{
+    opacity: 0.8;
+  }
+}
+
+@media(min-width:769px) and (max-width:1199px){
+  .logo{
+    width: 120px;
+    float: right;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 65px;
+    padding: 15px 0 0 10px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  
+  /* SECTION */
+  
+  
+  .infos{
+    width: 440px;
+  }
+  h2{
+    font-size: 32px;
+  }
+  .infos p {
+    font-size: 16px;
+  }
+  
+  .add{
+    width: 40px;
+    float: right;
+  }
+  
+  h3{
+    padding: 28px 0 15px 0;
+    font-size: 20px;
+  }
+  
+  .pessoais, .endereco{
+    width: 440px;
+  }
+  
+  .confirmar{
+    padding-top: 45px;
+    width: 440px;
+    display: flex;
+  }
+  
+  input{
+    height:50px;
+    width: 440px;
+    border-radius: 6px;
+    border:none;
+  
+    background-color: #e7e6e6;
+    margin-bottom: 5px;
+  }
+  
+  input:hover{
+    background-color: #d5d4d4;
+  }
+  
+  #txtCidade, #txtComp{
+    width: 262px;
+  }
+  #txtEstado, #txtNum{
+    width: 165px;
+    margin-left: 5px;
+  }
+  
+  
+  input::placeholder{
+    color: #6cc180;
+    font-size: 10px;
+    padding: 2px 0 0 6px;
+    float:left;
+  }
+  
+  #botaoConf{
+    width: 300px;
+    height: 55px;
+  
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #botaoConf:hover{
+    background-color: #1da13c;
+  }
+  
+  .chatbot{
+    width: 50px;
+    padding: 5px 0 0 20px;
+    float: right;
+  }
+  
+  .chatbot:hover{
+    opacity: 0.8;
+  }
+
+}
+
+@media(min-width:425px) and (max-width:768px){
+  .logo{
+    width: 121px;
+    height: 108px;
+    float: right;
+    padding-top: 10px;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 60px;
+    height: 60px;
+    padding: 30px 0 0 10px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  
+  /* SECTION */
+  
+  
+  .infos{
+    width: 340px;
+  }
+  h2{
+    font-size: 27px;
+  }
+  .infos p {
+    font-size: 14px;
+  }
+  
+  .add{
+    width: 35px;
+    float: right;
+  }
+  
+  h3{
+    padding: 30px 0 15px 0;
+    font-size: 16px;
+  }
+  
+  .pessoais, .caminhao, .endereco{
+    width: 340px;
+  }
+  
+  .confirmar{
+    padding-top: 45px;
+    width: 340px;
+    display: flex;
+  }
+  
+  input{
+    height:50px;
+    width: 340px;
+    border-radius: 6px;
+    border:none;
+  
+    background-color: #e7e6e6;
+    margin-bottom: 5px;
+  }
+  
+  input:hover{
+    background-color: #d5d4d4;
+  }
+  
+  #txtRG{
+    width: 181px;
+  }
+  #txtOE{
+    width: 145px;
+    margin-left: 5px;
+  }
+  
+  #txtModelo, #txtAno, #txtCidade, #txtComp{
+    width: 181px;
+  }
+  #txtPlaca, #txtCor, #txtEstado, #txtNum{
+    width: 145px;
+    margin-left: 5px;
+  }
+  
+  
+  input::placeholder{
+    color: #6cc180;
+    font-size: 11px;
+    padding: 2px 0 0 6px;
+    float:left;
+  }
+  
+  #botaoConf{
+    width: 250px;
+    height: 55px;
+  
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #botaoConf:hover{
+    background-color: #1da13c;
+  }
+  
+  .chatbot{
+    width: 50px;
+    padding: 5px 0 0 20px;
+    float: right;
+  }
+  
+  .chatbot:hover{
+    opacity: 0.8;
+  }
+  footer{
+    margin-top: 170px;
+  }
+}
+
+@media(max-width:424px){
+  .logo{
+    width: 119px;
+    height: 106px;
+    float: right;
+    padding-top: 10px;
+  }
+  .logo:hover{
+    opacity: 0.7;
+  }
+  
+  .arrow {
+    width: 40px;
+    height: 40px;
+    padding: 30px 0 0 10px;
+  }
+  .arrow:hover{
+    opacity: 0.7;
+  }
+  
+  
+  /* SECTION */
+  
+  
+  .infos{
+    width: 340px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .infos p {
+    font-size: 14px;
+  }
+  
+  .add{
+    width: 35px;
+    float: right;
+  }
+  
+  h3{
+    font-size: 16px;
+    padding: 20px 0 15px 0;
+  }
+  
+  .pessoais, .caminhao, .endereco{
+    width: 340px;
+  }
+  
+  .confirmar{
+    padding-top: 45px;
+    width: 340px;
+    display: flex;
+  }
+  
+  input{
+    height:50px;
+    width: 320px;
+    border-radius: 6px;
+    border:none;
+  
+    background-color: #e7e6e6;
+    margin-bottom: 5px;
+  }
+  
+  input:hover{
+    background-color: #d5d4d4;
+  }
+  
+  #txtRG{
+    width: 181px;
+  }
+  #txtOE{
+    width: 145px;
+    margin-left: 5px;
+  }
+  
+  #txtModelo, #txtAno, #txtCidade, #txtComp{
+    width: 181px;
+  }
+  #txtPlaca, #txtCor, #txtEstado, #txtNum{
+    width: 131px;
+    margin-left: 5px;
+  }
+  
+  
+  input::placeholder{
+    color: #6cc180;
+    font-size: 10px;
+    padding: 2px 0 0 6px;
+    float:left;
+  }
+  
+  #botaoConf{
+    width: 250px;
+    height: 55px;
+  
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #botaoConf:hover{
+    background-color: #1da13c;
+  }
+  
+  .chatbot{
+    width: 50px;
+    padding: 5px 0 0 20px;
+    float: right;
+  }
+  
+  .chatbot:hover{
+    opacity: 0.8;
+  }
+  footer{
+    margin-top: 170px;
+  }
+
+}

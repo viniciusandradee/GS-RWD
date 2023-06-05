@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte</title>
+    <link rel="stylesheet" href="./CSS/formatacaoGeral.css">
+    <link rel="stylesheet" href="./CSS/suporte.css">
+    <link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon">
+    
+    <script src="./JS/suporte.js"></script>
+  </head>
+
+    <body>
+      <div class="container">
+        <header>
+          <a href="./index.html"><img src="./imgs/arrow.png" class="arrow" alt="seta para retornar a pagina principal"></a>
+          <a href="./index.html"><img class="logo" src="./imgs/logo.png" alt="logo agrisolutions"></a>
+        </header>
+
+        <section>
+          <div class="infos">
+            <h2>Fale conosco</h2>
+            <p>Para outras informações, sugestões, dúvidas ou suporte para acesso, deixe sua mensagem no formulário abaixo:</p>
+          </div>
+          <form name="frmSuporte" method="" onsubmit="return validar()">
+            <div class="pessoais">
+              <h3>Dados:</h3>
+              <input type="text" name="" id="txtMotivo" placeholder="Motivo:">
+              <br>
+
+              <input type="text" name="" id="txtNome" placeholder="Nome completo:">
+              <input type="number" name="" id="txtCPF" placeholder="CPF:">
+              <br>
+
+              <input type="email" name="" id="txtEmail" placeholder="Email:">
+              <input type="number" name="" id="txtNumero" placeholder="Telefone:">
+              <br>
+              <input type="text" name="" id="txtMensagem" placeholder="Mensagem:">
+
+              <div class="cadastrar">
+                <input type="submit" value="Enviar" id="botaoCad">
+              </div>
+              <br>
+            </div>
+            <div><span id="feedback"></span></div>
+          </form>
+
+
+          <h2 class="cont">Nossos contatos</h2>
+          <div class="contato">
+            <img src="./imgs/email.png" alt="imagem minimalista de um email">
+            <p class="infoEmail">agrisolutions@gmail.com</p>
+          </div>
+          <div class="contato">
+            <img src="./imgs/telefone.png" alt="imagem minimalista de um telefone">
+            <p class="infoTel">0800 642 1960</p>
+          </div>
+        </section>
+
+        <footer>
+          <p>
+            Leonardo Bruno de Sousa - RM 552408
+            <br>
+            Marco Antônio Araujo - RM 550128
+            <br>
+            Samara de Oliveira Moreira - RM 552302
+            <br>
+            Vinícius Monteiro Manfrin - RM 552293
+            <br>
+            Vinicius Andrade Castro Lopes - RM 99343
+          </p>
+          <a href="./suporte.html">
+            <div class="suporte">
+              <p>Fale conosco</p>
+              <img src="./imgs/suporte.png" alt="simbolo de suporte">
+            </div>
+          </a>
+        </footer>
+      </div>
+    </body>
+
+  </html>

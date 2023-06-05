@@ -1,0 +1,196 @@
+@media(min-width: 1200px){
+  
+  .infos{
+    width: 85%;
+    margin-top: 50px;
+  }
+
+  h2{
+    font-size: 30px;
+    padding-bottom: 25px;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+  .infos p{
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+
+  .infos img{
+    margin: 15px 20px 15px 0;
+    float: left;
+  }
+
+  .dados {
+    padding: 15px 0 0 0;
+    font-weight: 700;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+
+  .cadastrar{
+    padding-top: 25px;
+    width: 300px;
+  }
+
+  #botaoCad{
+    border-radius: 6px;
+    border:none;
+    width: 300px;
+    height: 55px;
+    font-size: 18px;
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #botaoCad:hover{
+    background-color: #1da13c;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1199px){
+  
+  .infos{
+    width: 85%;
+    margin-top: 50px;
+  }
+
+  h2{
+    font-size: 27px;
+    padding-bottom: 25px;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+  .infos p{
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+
+  .infos img{
+    margin: 15px 20px 15px 0;
+    float: left;
+  }
+
+  .dados {
+    padding: 15px 0 0 0;
+    font-weight: 700;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+
+  .cadastrar{
+    padding-top: 25px;
+    width: 300px;
+  }
+
+  #botaoCad{
+    border-radius: 6px;
+    border:none;
+    width: 300px;
+    height: 55px;
+    font-size: 17px;
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #botaoCad:hover{
+    background-color: #1da13c;
+  }
+}
+
+@media(min-width: 425px) and (max-width: 768px){
+  .infos{
+    width: 85%;
+    margin-top: 50px;
+  }
+
+  h2{
+    font-size: 25px;
+    padding-bottom: 25px;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+  .infos p{
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+
+  .infos img{
+    margin: 15px 20px 15px 0;
+    float: left;
+  }
+
+  .dados {
+    padding: 15px 0 0 0;
+    font-weight: 700;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+
+  .cadastrar{
+    padding-top: 25px;
+    width: 250px;
+  }
+
+  #botaoCad{
+    border-radius: 6px;
+    border:none;
+    width: 250px;
+    height: 55px;
+    font-size: 16px;
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #botaoCad:hover{
+    background-color: #1da13c;
+  }
+}
+
+@media(max-width: 424px){
+  .infos{
+    width: 85%;
+    margin-top: 50px;
+  }
+
+  h2{
+    font-size: 25px;
+    padding-bottom: 25px;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+  .infos p{
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+
+  .infos img{
+    margin: 15px 20px 15px 0;
+  }
+
+  .dados {
+    padding: 15px 0 0 0;
+    font-weight: 700;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+
+  .cadastrar{
+    padding-top: 25px;
+    width: 250px;
+  }
+
+  #botaoCad{
+    border-radius: 6px;
+    border:none;
+    width: 250px;
+    height: 55px;
+    font-size: 16px;
+    color:white;
+    background-color: #54c26e;
+  }
+  
+  #botaoCad:hover{
+    background-color: #1da13c;
+  }
+}

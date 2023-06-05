@@ -1,0 +1,406 @@
+@media(min-width:1200px){
+  /* SECTION */
+  .infos{
+    width: 440px;
+    margin-top: 30px;
+  }
+  h2{
+    font-size: 40px;
+  }
+
+  .add{
+    width: 40px;
+    float: right;
+  }
+  .exit{
+    width: 40px;
+    float: right;
+
+  }
+  .exit:hover{
+    opacity: 0.7;
+  }
+
+  h3{
+    padding: 30px 0 15px 0;
+  }
+
+  .produto, .destinatario, .enderecoColeta, .enderecoEntrega{
+    width: 440px;
+  }
+
+
+
+  input{
+    height:50px;
+    width: 440px;
+    border-radius: 6px;
+    border:none;
+
+    background-color: #e7e6e6;
+    margin-bottom: 5px;
+  }
+
+  input:hover{
+    background-color: #d5d4d4;
+  }
+
+  #txtCondMin, #txtDesc {
+    height: 90px;
+  }
+
+
+  #txtRG{
+    width: 277px;
+  }
+  #txtOE{
+    width: 150px;
+    margin-left: 5px;
+  }
+
+  .cidade, .complemento{
+    width: 262px;
+  }
+  .estado, .numero{
+    width: 165px;
+    margin-left: 5px;
+  }
+
+  input::placeholder{
+    color: #6cc180;
+    font-size: 11px;
+    padding: 2px 0 0 6px;
+    float:left;
+  }
+
+  .cadastrar{
+    padding-top: 45px;
+    width: 440px;
+    display: flex;
+  }
+
+  #botaoCad{
+    width: 300px;
+    height: 55px;
+
+    color:white;
+    background-color: #54c26e;
+    justify-content: center;
+  }
+
+  #botaoCad:hover{
+    background-color: #1da13c;
+  }
+
+  .chatbot{
+    width: 50px;
+    padding: 5px 0 0 20px;
+    float: right;
+  }
+
+  .chatbot:hover{
+    opacity: 0.8;
+  }
+}
+@media(min-width:769px) and (max-width:1199px){
+  .infos{
+    width: 440px;
+    margin-top: 30px;
+  }
+  h2{
+    font-size: 36px;
+  }
+
+  .add{
+    width: 40px;
+    float: right;
+  }
+  .exit{
+    width: 40px;
+    float: right;
+
+  }
+  .exit:hover{
+    opacity: 0.7;
+  }
+
+  h3{
+    padding: 25px 0 15px 0;
+  }
+
+  .produto, .destinatario, .enderecoColeta, .enderecoEntrega{
+    width: 440px;
+  }
+  input{
+    height:50px;
+    width: 440px;
+    border-radius: 6px;
+    border:none;
+
+    background-color: #e7e6e6;
+    margin-bottom: 5px;
+  }
+
+  input:hover{
+    background-color: #d5d4d4;
+  }
+
+  #txtCondMin, #txtDesc {
+    height: 90px;
+  }
+
+
+  #txtRG{
+    width: 277px;
+  }
+  #txtOE{
+    width: 150px;
+    margin-left: 5px;
+  }
+
+  .cidade, .complemento{
+    width: 262px;
+  }
+  .estado, .numero{
+    width: 165px;
+    margin-left: 5px;
+  }
+
+  input::placeholder{
+    color: #6cc180;
+    font-size: 15px;
+    padding: 2px 0 0 6px;
+    float:left;
+  }
+
+  .cadastrar{
+    padding-top: 45px;
+    width: 440px;
+    display: flex;
+  }
+
+  #botaoCad{
+    width: 300px;
+    height: 55px;
+    font-size: 19px;
+    color:white;
+    background-color: #54c26e;
+    justify-content: center;
+  }
+
+  #botaoCad:hover{
+    background-color: #1da13c;
+  }
+
+  .chatbot{
+    width: 50px;
+    padding: 5px 0 0 20px;
+    float: right;
+  }
+
+  .chatbot:hover{
+    opacity: 0.8;
+  }
+}
+
+@media(min-width:425px) and (max-width:768px){
+  /* SECTION */
+
+  .infos{
+    width: 340px;
+    margin-top: 30px;
+  }
+  h2{
+    font-size: 30px;
+  }
+
+  .exit{
+    width: 35px;
+    float: right;
+
+  }
+  .exit:hover{
+    opacity: 0.7;
+  }
+
+  h3{
+    padding: 30px 0 15px 0;
+  }
+
+  .produto, .destinatario, .enderecoColeta, .enderecoEntrega{
+    width: 340px;
+  }
+
+
+
+  input{
+    height:50px;
+    width: 340px;
+    border-radius: 6px;
+    border:none;
+
+    background-color: #e7e6e6;
+    margin-bottom: 5px;
+  }
+
+  input:hover{
+    background-color: #d5d4d4;
+  }
+
+  #txtCondMin, #txtDesc {
+    height: 90px;
+  }
+
+
+  #txtRG{
+    width: 181px;
+  }
+  #txtOE{
+    width: 145px;
+    margin-left: 5px;
+  }
+
+  .cidade, .complemento{
+    width: 181px;
+  }
+  .estado, .numero{
+    width: 145px;
+    margin-left: 5px;
+  }
+
+  input::placeholder{
+    color: #6cc180;
+    font-size: 11px;
+    padding: 2px 0 0 6px;
+    float:left;
+  }
+
+  .cadastrar{
+    padding-top: 45px;
+    width: 340px;
+    display: flex;
+  }
+
+  #botaoCad{
+    width: 250px;
+    height: 55px;
+
+    color:white;
+    background-color: #54c26e;
+    justify-content: center;
+  }
+
+  #botaoCad:hover{
+    background-color: #1da13c;
+  }
+
+  .chatbot{
+    width: 50px;
+    padding: 5px 0 0 20px;
+    float: right;
+  }
+
+  .chatbot:hover{
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 424px){
+  .infos{
+    width: 340px;
+    margin-top: 30px;
+  }
+  h2{
+    font-size: 28px;
+  }
+  
+  .exit{
+    width: 30px;
+    float: right;
+  
+  }
+  .exit:hover{
+    opacity: 0.7;
+  }
+  
+  h3{
+    padding: 28px 0 15px 0;
+  }
+  
+  .produto, .destinatario, .enderecoColeta, .enderecoEntrega{
+    width: 320px;
+  }
+  
+  
+  
+  input{
+    height:50px;
+    width: 320px;
+    border-radius: 6px;
+    border:none;
+  
+    background-color: #e7e6e6;
+    margin-bottom: 5px;
+  }
+  
+  input:hover{
+    background-color: #d5d4d4;
+  }
+  
+  #txtCondMin, #txtDesc {
+    height: 80px;
+  }
+  
+  
+  #txtRG{
+    width: 171px;
+  }
+  #txtOE{
+    width: 135px;
+    margin-left: 8px;
+  }
+  
+  .cidade, .complemento{
+    width: 171px;
+  }
+  .estado, .numero{
+    width: 135px;
+    margin-left: 8px;
+  }
+  
+  input::placeholder{
+    color: #6cc180;
+    font-size: 13px;
+    padding: 2px 0 0 6px;
+    float:left;
+  }
+  
+  .cadastrar{
+    padding-top: 45px;
+    width: 340px;
+    display: flex;
+  }
+  
+  #botaoCad{
+    width: 250px;
+    height: 55px;
+    font-size:15px;
+    color:white;
+    background-color: #54c26e;
+    justify-content: center;
+  }
+  
+  #botaoCad:hover{
+    background-color: #1da13c;
+  }
+  
+  .chatbot{
+    width: 50px;
+    padding: 5px 0 0 20px;
+    float: right;
+  }
+  
+  .chatbot:hover{
+    opacity: 0.8;
+  }
+}
