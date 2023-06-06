@@ -77,6 +77,13 @@
   #login:hover{
     background-color: #1da13c;
   }  
+
+  /* FOOTER */
+
+  footer{
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 @media(min-width:769px) and (max-width:1199px){
@@ -150,13 +157,17 @@
     font-size: 18px;
     margin-top: 18px;
   }
-  footer{
-    margin-top: 800px;
-  }
-  
+    
   #login:hover{
     background-color: #1da13c;
   }  
+
+  /* FOOTER */
+
+  footer{
+    position: absolute;
+    bottom: 0;
+  }
 
 }
 
@@ -241,8 +252,12 @@
     font-size: 20px;
     font-weight: 600;
   }
+  
+  /* FOOTER */
+
   footer{
-    margin-top: 160px;
+    position: absolute;
+    bottom: 0;
   }
   
 }
@@ -328,7 +343,11 @@
     font-size: 20px;
     font-weight: 600;
   }
+  
+    /* FOOTER */
+
   footer{
-    margin-top: 100%;
+    position: absolute;
+    bottom: 0;
   }
 }

@@ -41,6 +41,12 @@
   section{
     padding-bottom: 150px;
   }
+
+  /* FOOTER */
+  footer{
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 @media(min-width:769px) and (max-width:1199px){
@@ -85,6 +91,12 @@
 
   section{
     padding-bottom: 150px;
+  }
+
+  /* FOOTER */
+  footer{
+    position: absolute;
+    bottom: 0;
   }
 }
 
@@ -137,6 +149,12 @@
     width: 121px;
     height: 108px;
   }
+
+  /* FOOTER */
+  footer{
+    position: absolute;
+    bottom: 0;
+  }
 }
 @media(max-width:424px){
   /* SECTION */
@@ -185,5 +203,11 @@
   .logo{
     width: 121px;
     height: 108px;
+  }
+
+  /* FOOTER */
+  footer{
+    position: absolute;
+    bottom: 0;
   }
 }

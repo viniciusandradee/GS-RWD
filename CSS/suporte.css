@@ -115,7 +115,11 @@
     float: right;
     padding-right: 100px;
   }
-  
+
+  /* FOOTER */
+  footer{
+    margin-top: 100px;
+  }
 }
 @media(min-width:769px) and (max-width:1199px){
   .logo{
@@ -234,8 +238,11 @@
     float: right;
     padding-right: 90px;
   }
-  
 
+  /* FOOTER */
+  footer{
+    margin-top: 100px;
+  }
 }
 
 @media(min-width:425px) and (max-width:768px){
@@ -359,6 +366,11 @@
   .infoTel{
     
     padding-right: 100px;
+  }
+
+  /* FOOTER */
+  footer{
+    margin-top: 100px;
   }
 }
 
@@ -487,6 +499,11 @@
   section{
     width: 100%;
   }
-  
+
+  /* FOOTER */
+  footer{
+    margin-top: 100px;
+  }
+
 }
 

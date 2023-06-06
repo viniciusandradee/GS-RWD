@@ -7,6 +7,10 @@
     padding: 0;
   }
 
+  html, body{
+    height: 100%;
+  }
+
   h1, h2, h3, p, a{
     font-family: Verdana, Tahoma, sans-serif;
   }
@@ -72,12 +76,9 @@
   /* FOOTER */
 
   footer{
-    height: 110px;
+    height: 130px;
     background-color: #6cc180;
     width: 100%;
-    margin-top: 100px;
-    bottom: 0;
-    clear: both;
   }
 
   footer p{
@@ -118,6 +119,11 @@
   h1, h2, h3, p, a{
     font-family: Verdana, Tahoma, sans-serif;
   }
+
+  html, body{
+    height: 100%;
+  }
+
   *{
     margin: 0 auto;
     padding: 0;
@@ -187,14 +193,13 @@
     height: 100px;
     background-color: #6cc180;
     width: 100%;
-    margin-top: 100px;
   }
 
   footer p{
     float: left;
     padding: 10px 0 0 20px;
     color:white;
-    font-size: 12px;
+    font-size: 13px;
     padding-left: 40px;
     padding-right: 25px;
   }
@@ -229,6 +234,11 @@
     margin: 0 auto;
     padding: 0;
   }
+
+  html, body{
+    height: 100%;
+  }
+
   h1, h2, h3, p, a{
     font-family: Verdana, Tahoma, sans-serif;
   }
@@ -285,17 +295,16 @@
   /* FOOTER */
 
   footer{
-    height: 170px;
+    height: 140px;
     background-color: #6cc180;
     width: 100%;
-    margin-top: 100px;
   }
 
   footer p{
     float: left;
     padding: 15px 10px 0 0;
     color:white;
-    font-size: 15px;
+    font-size: 12px;
     padding-left: 30px;
     padding-right: 30px;
     font-family: Verdana, Tahoma, sans-serif;
@@ -333,6 +342,10 @@
     margin: 0 auto;
     padding: 0;
 
+  }
+
+  html, body{
+    height: 100%;
   }
 
   h1, h2, h3, p, a{
@@ -394,7 +407,6 @@
     height: 160px;
     background-color: #6cc180;
     width: 100%;
-    margin-top: 90px;
   }
 
   footer p{
@@ -432,6 +444,10 @@
 
 }
 @media (max-width: 768px) {
+
+  html, body{
+    height: 100%;
+  }
 
 	.agricultura-menu{
 		float:left;

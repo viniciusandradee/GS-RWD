@@ -99,6 +99,12 @@
   .chatbot:hover{
     opacity: 0.8;
   }
+
+  /* FOOTER */
+  footer{
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 @media(min-width:769px) and (max-width:1199px){
@@ -204,6 +210,11 @@
     opacity: 0.8;
   }
 
+  /* FOOTER */
+  footer{
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 @media(min-width:425px) and (max-width:768px){
@@ -321,6 +332,12 @@
   }
   footer{
     margin-top: 170px;
+  }
+
+  /* FOOTER */
+  footer{
+    position: absolute;
+    bottom: 0;
   }
 }
 
@@ -441,4 +458,9 @@
     margin-top: 170px;
   }
 
+  /* FOOTER */
+  footer{
+    position: absolute;
+    bottom: 0;
+  }
 }

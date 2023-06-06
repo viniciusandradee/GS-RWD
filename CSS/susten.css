@@ -84,6 +84,11 @@
   .contp {
     text-align: justify;
   }
+
+  /* FOOTER */
+  footer{
+    margin-top: 100px;
+  }
 }
 
 @media(min-width:769px) and (max-width:1199px){
@@ -171,6 +176,11 @@
   
   .contp {
     text-align: justify;
+  }
+
+  /* FOOTER */
+  footer{
+    margin-top: 100px;
   }
 }
 
@@ -260,6 +270,11 @@
   .contp {
     text-align: justify;
   }
+
+  /* FOOTER */
+  footer{
+    margin-top: 100px;
+  }
 }
 
 @media(max-width:424px){
@@ -347,5 +362,10 @@
   
   .contp {
     text-align: justify;
+  }
+  
+  /* FOOTER */
+  footer{
+    margin-top: 100px;
   }
 }
