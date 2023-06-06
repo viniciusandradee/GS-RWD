@@ -60,7 +60,7 @@
     line-height: 23px;
     margin-bottom: 20px;
     font-family: Verdana, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     padding-left: 50px;
     padding-right: 30px;
   } 
@@ -133,7 +133,7 @@
     line-height: 20px;
     margin-bottom: 18px;
     font-family: Verdana, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     padding-left: 40px;
     padding-right: 20px;
   }  
@@ -191,14 +191,14 @@
 
   .titulo {
     color:#00aaff;
-    font-size: 24px;
+    font-size: 25px;
     margin-bottom: 20px;
     padding-left: 30px;
   }
 
   .subtitulo {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 8px;
     padding-left: 40px;
   }
@@ -207,7 +207,7 @@
     line-height: 23px;
     margin-bottom: 20px;
     font-family: Verdana, Tahoma, sans-serif;
-    font-size: 17px;
+    font-size: 14px;
     padding-left: 50px;
     padding-right: 30px;
   }  
@@ -263,14 +263,14 @@
 
   .titulo {
     color:#00aaff;
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 20px;
     padding-left: 30px;
   }
 
   .subtitulo {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 8px;
     padding-left: 40px;
   }
@@ -279,7 +279,7 @@
     line-height: 20px;
     margin-bottom: 18px;
     font-family: Verdana, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     padding-left: 48px;
     padding-right: 28px;
   }  

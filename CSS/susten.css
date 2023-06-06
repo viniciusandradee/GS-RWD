@@ -14,13 +14,16 @@
     border-radius: 2px;
   }
   .infos h2{
-    font-size: 30px;
+    font-size: 35px;
     margin: 50px 0 30px 0;
     padding-left: 40px;
   }
   .infos p{
-    margin: 15px;
-    font-size: 18px;
+    margin: 20px 0;
+    font-size: 15px;
+    line-height: 24px;
+    padding-left: 50px;
+    padding-right: 30px;
   }
 
   .gpt{
@@ -59,6 +62,7 @@
     cursor: pointer;
     display: flex;
     justify-content: space-between;
+    
   }
   
   .accordion_content {
@@ -75,10 +79,11 @@
   }
   span{
     width: 70%;
+    font-family: Verdana, Tahoma, sans-serif;
   }
   span, .icon {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
   }
   
   .contp {
@@ -109,10 +114,12 @@
     font-size: 26px;
     margin: 50px 0 30px 0;
     padding-left: 40px;
+    font-family: Verdana, Tahoma, sans-serif;
   }
   .infos p{
     margin: 15px;
     font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;
   }
 
   .gpt{
@@ -202,10 +209,12 @@
     font-size: 22px;
     margin: 50px 0 30px 0;
     padding-left: 40px;
+    font-family: Verdana, Tahoma, sans-serif;
   }
   .infos p{
     margin: 15px;
     font-size: 14px;
+    font-family: Verdana, Tahoma, sans-serif;
   }
 
   .gpt{
@@ -295,10 +304,13 @@
     font-size: 16px;
     margin: 50px 0 30px 0;
     padding-left: 40px;
+    font-family: Verdana, Tahoma, sans-serif;
   }
   .infos p{
     margin: 15px;
     font-size: 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+    
   }
 
   .gpt{

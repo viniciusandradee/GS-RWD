@@ -102,8 +102,7 @@
 
   /* FOOTER */
   footer{
-    position: absolute;
-    bottom: 0;
+    margin-top: 100px;
   }
 }
 
@@ -212,8 +211,7 @@
 
   /* FOOTER */
   footer{
-    position: absolute;
-    bottom: 0;
+    margin-top: 100px;
   }
 }
 
@@ -330,14 +328,10 @@
   .chatbot:hover{
     opacity: 0.8;
   }
-  footer{
-    margin-top: 170px;
-  }
 
   /* FOOTER */
   footer{
-    position: absolute;
-    bottom: 0;
+    margin-top: 100px;
   }
 }
 
@@ -454,13 +448,9 @@
   .chatbot:hover{
     opacity: 0.8;
   }
-  footer{
-    margin-top: 170px;
-  }
 
   /* FOOTER */
   footer{
-    position: absolute;
-    bottom: 0;
+    margin-top: 100px;
   }
 }
